@@ -1,3 +1,2 @@
-server:
-  port: 5001
-  context-path: /
+
+profile: 88888
