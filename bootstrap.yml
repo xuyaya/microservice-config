@@ -1,0 +1,10 @@
+spring: 
+  application:
+    name: application-dev
+  cloud:
+    config:
+      name: crm
+      uri: http://configserver.java1234.com:4001  # 配置configserver地址
+      profile: dev  # 级别
+      label: master  # 分支 git中 默认master
+      fail-fast: true
